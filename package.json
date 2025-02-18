@@ -1,6 +1,6 @@
 {
-  "name": "ngx-intl-tel-input-app",
-  "version": "0.0.0",
+  "name": "@fabrick/ngx-intl-tel-input-app",
+  "version": "18.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,7 +17,6 @@
     "npm_pack": "npm run copy-files && cd dist/ngx-intl-tel-input && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "18.x",
     "@angular/common": "18.x",
@@ -67,8 +66,20 @@
     "webpack-bundle-analyzer": "^4.10.1"
   },
   "peerDependencies": {
-    "@angular/common": "17.x",
-    "@angular/core": "17.x",
-    "@angular/forms": "17.x"
-  }
+    "@angular/common": "18.x",
+    "@angular/core": "18.x",
+    "@angular/forms": "18.x"
+  },
+  "description": "[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kryger93/ngx-intl-tel-input.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kryger93/ngx-intl-tel-input/issues"
+  },
+  "homepage": "https://github.com/Kryger93/ngx-intl-tel-input#readme"
 }
